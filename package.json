@@ -24,7 +24,9 @@
   "scripts": {
     "start": "./node start-electron.js",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "jquery": "^3.3.1",
@@ -32,10 +34,12 @@
     "lodash": "^4.17.10",
     "node-gyp": "^3.7.0",
     "request": "^2.85.0",
-    "strip": "^3.0.0"
+    "strip": "^3.0.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "electron": "^1.8.4",
     "electron-builder": "^20.15.1"
-  }
+  },
+  "snyk": true
 }

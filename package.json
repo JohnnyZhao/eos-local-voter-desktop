@@ -31,7 +31,7 @@
     "keymaster": "^1.6.2",
     "lodash": "^4.17.12",
     "node-gyp": "^3.7.0",
-    "request": "^2.85.0",
+    "request": "^2.87.0",
     "strip": "^3.0.0"
   },
   "devDependencies": {

@@ -30,8 +30,8 @@
     "jquery": "^3.3.1",
     "keymaster": "^1.6.2",
     "lodash": "^4.17.12",
-    "node-gyp": "^3.7.0",
-    "request": "^2.85.0",
+    "node-gyp": "^3.8.0",
+    "request": "^2.88.0",
     "strip": "^3.0.0"
   },
   "devDependencies": {
